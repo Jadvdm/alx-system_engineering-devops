@@ -1,0 +1,2 @@
+#!/bin/dash
+rmdir /tmp/my_first_directory
