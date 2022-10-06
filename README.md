@@ -23,6 +23,7 @@ Networking basics and more!
 Requirements
 
 Shellcheck version 0.3.3-1
+
 Ubuntu 20.04 LTS
 Projects
 
