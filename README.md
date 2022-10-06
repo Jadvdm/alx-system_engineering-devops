@@ -23,7 +23,7 @@ Networking basics and more!
 Requirements
 
 Shellcheck version 0.3.3-1
-Ubuntu 14.04 LTS
+Ubuntu 20.04 LTS
 Projects
 
 1. [0x00-shell_basics](https://github.com/Jadvdm/alx-system_engineering-devops/tree/master/0x00-shell_basics)
