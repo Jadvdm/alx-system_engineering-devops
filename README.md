@@ -26,5 +26,5 @@ Shellcheck version 0.3.3-1
 Ubuntu 14.04 LTS
 Projects
 
-1. # 0x00-shell_basics
-2. # 0x01-shell_permissions
+1.# 0x00-shell_basics
+2.# 0x01-shell_permissions
