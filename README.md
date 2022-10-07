@@ -11,10 +11,8 @@ Table of Contents
 
 # About
 # Requirements
-# Projects
 
 
-# About
 
 
 Basics and Advances shell scripting
