@@ -7,6 +7,7 @@ Redirection is the ability to redirect the input and output of various commands 
 # ABOUT
 # REQUIREMENTS
 # HOW 
+# PROJECT 
 
 
 # ABOUT 
@@ -107,7 +108,7 @@ How to remove sections from each line of files ?
 What is the /etc/passwd file and what is its format ?
 What is the /etc/shadow file and what is its format ?
 
-# REQUIREMENTS 
+# REQUIREMENTS  
 
 
 Allowed editors: vi, vim, emacs
@@ -119,3 +120,9 @@ A README.md file, at the root of the folder of the project, describing what each
 You are not allowed to use backticks, &&, || or ;
 All your files must be executable
 You are not allowed to use sed or awk
+
+# PROJECT 
+
+0. [Hello World](https://github.com/Jadvdm/alx-system_engineering-devops/blob/master/0x02-shell_redirections/0-hello_world)
+mandatory
+Write a script that prints “Hello, World”, followed by a new line to the standard output.
