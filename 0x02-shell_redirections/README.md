@@ -37,57 +37,7 @@ $> cat < a.txt > b.txt # Reads from a.txt and outputs to b.txt
 And <<
 That one is a bit like the three above, except that it does not interact with files. Instead it is used to get input from the user's keyboard line by line.
 
-So when you do something like:
-
-$> cat <<EOF
-... and press enter, the shell will expect input.
-So you can continue:
-
-$> cat <<EOF
-> Hello World!
-> How are you?
-> Do you know the answer to the ultimate question?
-And when you want to stop the input you either press Ctrl+D or type the word which is on the right side of the << operator (In this case EOF) and press enter (it must be on an empty line):
-
-$> cat << EOF
-> Hello World!
-> How are you?
-> Do you know the answer to the ultimate question?
-> EOF
-Hello World!
-How are you?
-Do you know the answer to the ultimate question?
-Immediatly after the input has been stoppedt the shell runs the program with what you have typed as the content in stdin.
-
->& and <&
-Those two do not act on files but file descriptors.
-
-Their left side can be either ignored or be a number (the target fd).
-The left side MUST be attached to the operator.
-
-If I want to redirect stdout to stderr I can do:
-
-$> cat ft_strdup.c 1>&2
-Or...
-
-$> cat ft_strdup.c >&2
-You can also use >& and <& to close a file descriptor (If you want to ignore error messages, for example)
-
-$> find / -name 'lost_file' 2>&- # If you don't want to see messages like 'Permision denied'
-The only difference between >& and <& is the default file descriptor used in case of a not given left fd.
->& is for stdout and <& is for stdin.
-
-Also, if you put a space between the left side of the operator and the operator itself the shell will think that the left side is actually an argument to pass to the program and will use the default left side fd number.
-
-One last thing
-Those operators can be used anywhere on the command line
-
-$> < input_file cat
-
-$> >output_file echo hello world
-
-$> ls 2>&- -R /
-But you should put the them either on the beginning of the command or the ending to avoid confusion.
+Let stop here 
 
 # HOW 
 
