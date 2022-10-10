@@ -7,11 +7,11 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 Table of Contents
 
-About
+# About
 
-Requirements
+# Requirements
 
-project
+# project
 
 Basics and Advances shell scripting Regular Expression Networking basics and more! Requirements
 
@@ -19,8 +19,8 @@ Shellcheck version 0.3.3-1
 
 Ubuntu 20.04 LTS Projects
 
-project
+# project
 
-0x00-shell_basics
-0x01-shell_permissions
-0x02-shell_redirections
+[0x00-shell_basics](
+[0x01-shell_permissions](
+[0x02-shell_redirections](
