@@ -1,5 +1,5 @@
-[# 0x02-shell_redirections](https://github.com/Jadvdm/alx-system_engineering-devops/tree/master/0x02-shell_redirections )
 
+# 0x02-shell_redirections
 
 
 
