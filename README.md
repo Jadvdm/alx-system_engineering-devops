@@ -26,3 +26,5 @@ Ubuntu 20.04 LTS Projects
 2.[0x01-shell_permissions](https://github.com/Jadvdm/alx-system_engineering-devops/tree/master/0x01-shell_permissions)
 
 3.[0x02-shell_redirections](https://github.com/Jadvdm/alx-system_engineering-devops/tree/master/0x02-shell_redirections)
+
+4.[0x03-shell_variables_expansions](https://github.com/Jadvdm/alx-system_engineering-devops/tree/master/0x03-shell_variables_expansions)
