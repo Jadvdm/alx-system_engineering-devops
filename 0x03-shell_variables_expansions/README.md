@@ -54,16 +54,14 @@ You are not allowed to use bc, sed or awk
 All your files must be executable
 
 # Project 
-
-[]() Create a script that creates an alias.
+[0-alias](https://github.com/Jadvdm/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/0-alias) Create a script that creates an alias.
 
 Name: ls
 
 Value: rm *
 
-[0-alias](https://github.com/Jadvdm/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/0-alias) Create a script that prints hello user, where user is the current Linux user.
-
-[1-hello_you](https://github.com/Jadvdm/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/1-hello_you) Add /action to the PATH. /action should be the last directory the shell looks into when looking for a program.
+[1-hello_you](https://github.com/Jadvdm/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/1-hello_you) Create a script that prints hello user, where user is the current Linux user.
+ Add /action to the PATH. /action should be the last directory the shell looks into when looking for a program.
 
 [2-path](https://github.com/Jadvdm/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/2-path) Add /action to the PATH. /action should be the last directory the shell looks into when looking for a program.
 
